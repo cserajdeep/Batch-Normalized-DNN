@@ -1,4 +1,27 @@
-Deep Neural Network with 4 layers and 1 output layer. The developed model gives 100% accuracy for Iris 7:3 test-set.
+Deep Neural Network: 
+(1) BN_DNN with 4 layers and 1 output layer. The model gives 100% test accuracy for Iris 7:3 split.
+(2) DNN_LITE with 2 layers and 1 output layer. The model provides 91.11% test accuracy for same 7:3 split.
+
+<table style="width:50%">
+  <tr>
+    <th>Model</th>
+    <th>Accuracy (%)</th>
+    <th>AUC</th> 
+  </tr>
+  <tr>
+    <td>BN_DNN</td>
+    <td>100</td>
+    <td>1.00</td>
+  </tr>
+  <tr>
+    <td>DNN_LITE</td>
+    <td>91.11</td>
+    <td>0.978</td>
+  </tr>
+</table>
+
+<p><strong>Updated:</strong> 26-June-2021.</p>
+
 
 # Batch Normalized Neural Architecture
 ```ruby
