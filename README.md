@@ -26,7 +26,7 @@
 <p><strong>Updated:</strong> 26-June-2021.</p>
 
 
-# Batch Normalized Neural Architecture (BN_DNN)
+# Heavy Neural Architecture (BN_DNN)
 ```ruby
 class BN_DNN(nn.Module):
     """Feedfoward neural network with 4 hidden layer"""
@@ -47,7 +47,7 @@ class BN_DNN(nn.Module):
         # output layer
         self.linear5 = nn.Linear(32, out_size)
 ```
-# Batch Normalized Neural Architecture (DNN_LITE)
+# Light-weight Neural Architecture (DNN_LITE)
 ```ruby
 class DNN_LITE(nn.Module):
     def __init__(self, input_dim, out_dim):
